@@ -1,3 +1,3 @@
-Dataset yang digunakan : bank.csv
-**Sumber**
-https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
+Dataset yang digunakan : bank.csv <br>
+**Sumber**<br>
+https://archive.ics.uci.edu/ml/datasets/Bank+Marketing<br>
