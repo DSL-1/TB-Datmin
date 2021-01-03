@@ -1,6 +1,8 @@
 # TB-Datmin
 
 **Kelompok 6** <br>
-khadafisani   : Muhammad Khadafi (3311901078) <br>
-Kyutoz        : Latu Alam Saputra (3311901072) <br>
-SamuelChrisW  : Samuel Chris William marpaung (3311901080)
+Nick Github | Nama | NIM 
+----------- | ---- | ---
+khadafisani | Muhammad Khadafi | 3311901078
+Kyutoz      | Latu Alam Saputra | 3311901072
+SamuelChrisW | Samuel Chris William marpaung | 3311901080
