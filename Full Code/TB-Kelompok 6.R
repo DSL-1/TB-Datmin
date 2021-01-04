@@ -2,7 +2,7 @@
 setwd("C:/Users/Ralfino/Documents/Data Mining/TB")
 
 #pembacaan dataset 
-dataset <-read.csv("bank/bank.csv", sep = ";")
+dataset <-read.csv("bank/bank-500.csv", sep = ";")
 
 #install library
 #install.packages("C50")
@@ -12,7 +12,7 @@ dataset <-read.csv("bank/bank.csv", sep = ";")
 library(C50)
 library(printr)
 
-dataset$age <- as.factor(dataset$age)
+dataset$age <- as.numeric(dataset$age)
 dataset$job <- as.factor(dataset$job)
 dataset$marital <- as.factor(dataset$marital)
 dataset$education <- as.factor(dataset$education)
@@ -24,7 +24,7 @@ dataset$contact <- as.factor(dataset$contact)
 dataset$day <- as.numeric(dataset$day)
 dataset$month <- as.factor(dataset$month)
 dataset$duration <- as.numeric(dataset$duration)
-dataset$campaign <- as.factor(dataset$campaign)
+dataset$campaign <- as.numeric(dataset$campaign)
 dataset$pdays <- as.numeric(dataset$pdays)
 dataset$previous <- as.numeric(dataset$previous)
 dataset$poutcome <- as.factor(dataset$poutcome)
@@ -48,4 +48,3 @@ predictions <-predict(model, datatesting)
 
 #bandingkan hasil prediksi dengan dataset
 table(predictions, dataset$y)
-
