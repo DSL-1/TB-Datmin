@@ -1,4 +1,4 @@
-# TB-Datmin
+# Tugas Besar Data Mining
 
 **Kelompok 6** <br>
 Nick Github | Nama | NIM 
