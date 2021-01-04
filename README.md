@@ -1,5 +1,7 @@
 # Tugas Besar Data Mining
 
+### IF3C
+
 **Kelompok 6** <br>
 Nick Github | Nama | NIM 
 ----------- | ---- | ---
